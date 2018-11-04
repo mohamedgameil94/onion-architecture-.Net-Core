@@ -1,0 +1,12 @@
+D:\MyUnityOfWork\Repositories\bin\Debug\netcoreapp2.1\Repositories.deps.json
+D:\MyUnityOfWork\Repositories\bin\Debug\netcoreapp2.1\Repositories.dll
+D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.csprojAssemblyReference.cache
+D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.csproj.CoreCompileInputs.cache
+D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.AssemblyInfoInputs.cache
+D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.AssemblyInfo.cs
+D:\MyUnityOfWork\Repositories\bin\Debug\netcoreapp2.1\Repositories.pdb
+D:\MyUnityOfWork\Repositories\bin\Debug\netcoreapp2.1\Data.dll
+D:\MyUnityOfWork\Repositories\bin\Debug\netcoreapp2.1\Data.pdb
+D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.csproj.CopyComplete
+D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.dll
+D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.pdb

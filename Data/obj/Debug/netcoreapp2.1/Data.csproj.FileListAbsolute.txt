@@ -1,0 +1,8 @@
+D:\MyUnityOfWork\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+D:\MyUnityOfWork\Data\bin\Debug\netcoreapp2.1\Data.dll
+D:\MyUnityOfWork\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+D:\MyUnityOfWork\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+D:\MyUnityOfWork\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+D:\MyUnityOfWork\Data\bin\Debug\netcoreapp2.1\Data.pdb
+D:\MyUnityOfWork\Data\obj\Debug\netcoreapp2.1\Data.dll
+D:\MyUnityOfWork\Data\obj\Debug\netcoreapp2.1\Data.pdb
