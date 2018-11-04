@@ -71,7 +71,7 @@ namespace UI.Controllers
 
         // PUT: api/Products/5
         [HttpPut]
-        public async Task Put([FromBody] Products model)
+        public async Task Put([FromBody] ProductModel model)
         {
             var Product = await _productService.GetById(model.Id);
             Product.Name = model.Name;
