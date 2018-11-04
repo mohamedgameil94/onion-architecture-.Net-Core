@@ -3411,11 +3411,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyUnityOfWork\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\Myonion\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\MyUnityOfWork\\Data\\Data.csproj",
+      "projectPath": "D:\\Myonion\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Mohammed\\.nuget\\packages\\",
-      "outputPath": "D:\\MyUnityOfWork\\Data\\obj\\",
+      "outputPath": "D:\\Myonion\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

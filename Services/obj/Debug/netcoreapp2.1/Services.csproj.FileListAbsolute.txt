@@ -12,3 +12,17 @@ D:\MyUnityOfWork\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
 D:\MyUnityOfWork\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
 D:\MyUnityOfWork\Services\obj\Debug\netcoreapp2.1\Services.dll
 D:\MyUnityOfWork\Services\obj\Debug\netcoreapp2.1\Services.pdb
+D:\Myonion\Services\bin\Debug\netcoreapp2.1\Services.deps.json
+D:\Myonion\Services\bin\Debug\netcoreapp2.1\Services.dll
+D:\Myonion\Services\bin\Debug\netcoreapp2.1\Services.pdb
+D:\Myonion\Services\bin\Debug\netcoreapp2.1\Data.dll
+D:\Myonion\Services\bin\Debug\netcoreapp2.1\Repositories.dll
+D:\Myonion\Services\bin\Debug\netcoreapp2.1\Data.pdb
+D:\Myonion\Services\bin\Debug\netcoreapp2.1\Repositories.pdb
+D:\Myonion\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache
+D:\Myonion\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+D:\Myonion\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+D:\Myonion\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
+D:\Myonion\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+D:\Myonion\Services\obj\Debug\netcoreapp2.1\Services.dll
+D:\Myonion\Services\obj\Debug\netcoreapp2.1\Services.pdb

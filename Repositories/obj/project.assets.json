@@ -3430,11 +3430,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyUnityOfWork\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\Myonion\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\MyUnityOfWork\\Repositories\\Repositories.csproj",
+      "projectPath": "D:\\Myonion\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\Mohammed\\.nuget\\packages\\",
-      "outputPath": "D:\\MyUnityOfWork\\Repositories\\obj\\",
+      "outputPath": "D:\\Myonion\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3453,8 +3453,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\MyUnityOfWork\\Data\\Data.csproj": {
-              "projectPath": "D:\\MyUnityOfWork\\Data\\Data.csproj"
+            "D:\\Myonion\\Data\\Data.csproj": {
+              "projectPath": "D:\\Myonion\\Data\\Data.csproj"
             }
           }
         }

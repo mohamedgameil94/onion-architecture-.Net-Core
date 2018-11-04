@@ -6,12 +6,14 @@ using Data.Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Services;
+using UI.Infrastructure;
 using UI.Models;
 
 namespace UI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ValidateModel]
     public class ProductsController : ControllerBase
     {
         private IProductService _productService;  
@@ -52,10 +54,17 @@ namespace UI.Controllers
 
         // POST: api/Products
         [HttpPost]
-        public async Task Post([FromBody] Products  model)
+        public async Task Post([FromBody] ProductModel model)
         {
-            model.CreatedDate = DateTime.UtcNow;
-            await _productService.Create(model);
+
+            var entity = new Products()
+            {
+                Id = model.Id,
+                Name = model.Name,
+                CreatedDate = DateTime.UtcNow
+
+            };
+            await _productService.Create(entity);
 
 
         }

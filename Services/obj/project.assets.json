@@ -3449,11 +3449,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyUnityOfWork\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\Myonion\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\MyUnityOfWork\\Services\\Services.csproj",
+      "projectPath": "D:\\Myonion\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\Mohammed\\.nuget\\packages\\",
-      "outputPath": "D:\\MyUnityOfWork\\Services\\obj\\",
+      "outputPath": "D:\\Myonion\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3472,11 +3472,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\MyUnityOfWork\\Data\\Data.csproj": {
-              "projectPath": "D:\\MyUnityOfWork\\Data\\Data.csproj"
+            "D:\\Myonion\\Data\\Data.csproj": {
+              "projectPath": "D:\\Myonion\\Data\\Data.csproj"
             },
-            "D:\\MyUnityOfWork\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\MyUnityOfWork\\Repositories\\Repositories.csproj"
+            "D:\\Myonion\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\Myonion\\Repositories\\Repositories.csproj"
             }
           }
         }

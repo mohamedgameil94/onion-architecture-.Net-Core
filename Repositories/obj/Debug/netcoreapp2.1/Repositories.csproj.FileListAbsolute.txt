@@ -10,3 +10,15 @@ D:\MyUnityOfWork\Repositories\bin\Debug\netcoreapp2.1\Data.pdb
 D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.csproj.CopyComplete
 D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.dll
 D:\MyUnityOfWork\Repositories\obj\Debug\netcoreapp2.1\Repositories.pdb
+D:\Myonion\Repositories\bin\Debug\netcoreapp2.1\Repositories.deps.json
+D:\Myonion\Repositories\bin\Debug\netcoreapp2.1\Repositories.dll
+D:\Myonion\Repositories\bin\Debug\netcoreapp2.1\Repositories.pdb
+D:\Myonion\Repositories\bin\Debug\netcoreapp2.1\Data.dll
+D:\Myonion\Repositories\bin\Debug\netcoreapp2.1\Data.pdb
+D:\Myonion\Repositories\obj\Debug\netcoreapp2.1\Repositories.csprojAssemblyReference.cache
+D:\Myonion\Repositories\obj\Debug\netcoreapp2.1\Repositories.csproj.CoreCompileInputs.cache
+D:\Myonion\Repositories\obj\Debug\netcoreapp2.1\Repositories.AssemblyInfoInputs.cache
+D:\Myonion\Repositories\obj\Debug\netcoreapp2.1\Repositories.AssemblyInfo.cs
+D:\Myonion\Repositories\obj\Debug\netcoreapp2.1\Repositories.csproj.CopyComplete
+D:\Myonion\Repositories\obj\Debug\netcoreapp2.1\Repositories.dll
+D:\Myonion\Repositories\obj\Debug\netcoreapp2.1\Repositories.pdb
