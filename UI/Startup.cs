@@ -15,6 +15,7 @@ using Microsoft.Extensions.Options;
 using Repositories;
 using Services;
 using Swashbuckle.AspNetCore.Swagger;
+using UI.Factories;
 
 namespace UI
 {
@@ -33,11 +34,13 @@ namespace UI
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IProductModelFactory, ProductModelFactory>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddAutoMapper();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1",new Info { Title = "My API", Version = "v1" });
+                c.SwaggerDoc("v1",new Info { Title = "Application web api documentation", Version = "v1" });
             });
         }
 
@@ -62,7 +65,7 @@ namespace UI
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Application web api documentation");
             });
         }
     }

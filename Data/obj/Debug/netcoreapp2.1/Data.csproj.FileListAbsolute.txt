@@ -9,7 +9,6 @@ D:\MyUnityOfWork\Data\obj\Debug\netcoreapp2.1\Data.pdb
 D:\Myonion\Data\bin\Debug\netcoreapp2.1\Data.deps.json
 D:\Myonion\Data\bin\Debug\netcoreapp2.1\Data.dll
 D:\Myonion\Data\bin\Debug\netcoreapp2.1\Data.pdb
-D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
 D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
 D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
 D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs

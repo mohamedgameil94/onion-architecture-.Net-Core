@@ -6,6 +6,7 @@ using Data.Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Services;
+using UI.Factories;
 using UI.Infrastructure;
 using UI.Models;
 
@@ -16,40 +17,28 @@ namespace UI.Controllers
     [ValidateModel]
     public class ProductsController : ControllerBase
     {
-        private IProductService _productService;  
-
-        public ProductsController(IProductService productService)
+        private IProductService _productService;
+        private readonly IProductModelFactory _productModelFactory;
+        public ProductsController(
+              IProductService productService,
+             IProductModelFactory productModelFactory
+            )
         {
             _productService = productService;
+            _productModelFactory = productModelFactory;
         }
         [HttpGet]
         public async Task<IEnumerable<ProductModel>> Get()
         {
-            var Products =  await _productService.List();
-            return Products.Select(p => new ProductModel()
-            {
-                Id = p.Id,
-                Name = p.Name,
-                CreatedDate = p.CreatedDate,
-                LastUpdatedDate = p.LastUpdatedDate                
-            });
-
-
-
+            return await _productModelFactory.PrepareProductListAsync();
+            
         }
 
         // GET: api/Products/5
         [HttpGet("{id}", Name = "Get")]
         public async Task<ProductModel> Get(int id)
         {
-            var Product = await _productService.GetById(id);
-            return new ProductModel()
-            {
-                Id = Product.Id,
-                Name  = Product.Name,
-                CreatedDate = Product.CreatedDate,
-                LastUpdatedDate = Product.LastUpdatedDate
-            };
+            return await _productModelFactory.PrepareProductAsync(id);
         }
 
         // POST: api/Products
