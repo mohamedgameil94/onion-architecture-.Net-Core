@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Data.Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Services;
@@ -15,6 +16,7 @@ namespace UI.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [ValidateModel]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private IProductService _productService;

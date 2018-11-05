@@ -1,0 +1,14 @@
+D:\Myonion\OnionTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Myonion\OnionTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Myonion\OnionTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Myonion\OnionTest\bin\Debug\netcoreapp2.1\OnionTest.deps.json
+D:\Myonion\OnionTest\bin\Debug\netcoreapp2.1\OnionTest.runtimeconfig.json
+D:\Myonion\OnionTest\bin\Debug\netcoreapp2.1\OnionTest.runtimeconfig.dev.json
+D:\Myonion\OnionTest\bin\Debug\netcoreapp2.1\OnionTest.dll
+D:\Myonion\OnionTest\bin\Debug\netcoreapp2.1\OnionTest.pdb
+D:\Myonion\OnionTest\obj\Debug\netcoreapp2.1\OnionTest.csprojAssemblyReference.cache
+D:\Myonion\OnionTest\obj\Debug\netcoreapp2.1\OnionTest.csproj.CoreCompileInputs.cache
+D:\Myonion\OnionTest\obj\Debug\netcoreapp2.1\OnionTest.AssemblyInfoInputs.cache
+D:\Myonion\OnionTest\obj\Debug\netcoreapp2.1\OnionTest.AssemblyInfo.cs
+D:\Myonion\OnionTest\obj\Debug\netcoreapp2.1\OnionTest.dll
+D:\Myonion\OnionTest\obj\Debug\netcoreapp2.1\OnionTest.pdb

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace UI.Models
 {
+    
     public class ProductModel : BaseModel
     {
       
-        [Required(ErrorMessage = "Name is Required")]
+       
         public string Name { get; set; }
     }
 }
