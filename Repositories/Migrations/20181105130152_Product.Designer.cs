@@ -10,8 +10,8 @@ using Repositories;
 namespace Repositories.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20181104151219_MyProduts2")]
-    partial class MyProduts2
+    [Migration("20181105130152_Product")]
+    partial class Product
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -52,7 +52,11 @@ namespace Repositories.Migrations
 
                     b.Property<DateTime?>("LastUpdatedDate");
 
-                    b.Property<string>("Password");
+                    b.Property<byte[]>("Password")
+                        .IsRequired();
+
+                    b.Property<byte[]>("PasswordSalt")
+                        .IsRequired();
 
                     b.HasKey("Id");
 

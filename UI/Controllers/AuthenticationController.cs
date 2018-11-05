@@ -18,19 +18,24 @@ namespace UI.Controllers
     {
         private readonly IUserService _userService;
         private readonly ITokenProvider _tokenProvider;
-        public AuthenticationController(IUserService userService, ITokenProvider tokenProvider)
+        private readonly IEncryptionService _encryptionService;
+        public AuthenticationController(IUserService userService, ITokenProvider tokenProvider, IEncryptionService encryptionService)
         {
             _userService = userService;
             _tokenProvider = tokenProvider;
+            _encryptionService = encryptionService;
+
+
         }
 
         [AllowAnonymous]
         [HttpPost("authenticate")]
-        public async Task<IActionResult> AuthenticateAsync([FromBody]LoginInfoModel Model)
+        public async Task<IActionResult> AuthenticateAsync([FromBody]LoginInfoModel model)
         {
-            var user = await _userService.GetByEmail(Model.Email);
-            if (user == null || (!user.Password.Equals(Model.Password)))
-                return BadRequest("incorrect user name or password");
+
+            var user = await _userService.GetByEmail(model.Email);
+            if (user == null || !_encryptionService.VerifyPasswordHash(model.Password, user.Password, user.PasswordSalt))
+                return BadRequest("invalid Email or password");
 
             string Token = _tokenProvider.GenerateTokenIdentity(user.Id.ToString(), DateTime.Now.AddDays(8));
             return Ok(new
