@@ -50,7 +50,11 @@ namespace Repositories.Migrations
 
                     b.Property<DateTime?>("LastUpdatedDate");
 
-                    b.Property<string>("Password");
+                    b.Property<byte[]>("Password")
+                        .IsRequired();
+
+                    b.Property<byte[]>("PasswordSalt")
+                        .IsRequired();
 
                     b.HasKey("Id");
 

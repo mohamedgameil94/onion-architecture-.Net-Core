@@ -14,4 +14,3 @@ D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
 D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
 D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.dll
 D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.pdb
-D:\Myonion\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache

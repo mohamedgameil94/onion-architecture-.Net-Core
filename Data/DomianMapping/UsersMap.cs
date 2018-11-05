@@ -13,6 +13,8 @@ namespace Data.DomianMapping
 
             entityBuilder.HasKey(u => u.Id);
             entityBuilder.HasIndex(u => u.Email).IsUnique();
+            entityBuilder.Property(u => u.Password).IsRequired();
+            entityBuilder.Property(u => u.PasswordSalt).IsRequired();
 
         }
     }

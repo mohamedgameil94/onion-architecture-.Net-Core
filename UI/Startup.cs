@@ -69,6 +69,8 @@ namespace UI
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IProductModelFactory, ProductModelFactory>();
             services.AddTransient<ITokenProvider, TokenProvider>();
+            services.AddTransient<IUserModelFactory, UsersModelFactory>();
+            services.AddTransient<IEncryptionService, EncryptionService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddAutoMapper();
             services.AddSwaggerGen(c =>
