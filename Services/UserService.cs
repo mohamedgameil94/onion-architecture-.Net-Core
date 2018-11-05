@@ -26,7 +26,8 @@ namespace Services
 
         public Task<Users> GetByEmail(string Email)
         {
-            return Task.Run(() => _repository.Table.Where(c => c.Email == Email).SingleOrDefault());
+            return Task.Run(() => _repository.Table
+            .Where(c => c.Email == Email).SingleOrDefault());
         }
 
         public Task<Users> GetById(int Id)
