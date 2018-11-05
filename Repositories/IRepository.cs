@@ -12,8 +12,7 @@ namespace Repositories
         Task<T> Get(long id);
         Task Insert(T entity);
         Task Update(T entity);
-        Task Delete(T entity);
-        
+        Task Delete(T entity);        
         IQueryable<T> Table { get; }
         Task SaveChanges();
     }
