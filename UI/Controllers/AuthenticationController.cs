@@ -32,7 +32,10 @@ namespace UI.Controllers
         [HttpPost("authenticate")]
         public async Task<IActionResult> AuthenticateAsync([FromBody]LoginInfoModel model)
         {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4fa2c9af5508ec582ebd70f68adad292308a94fc
             var user = await _userService.GetByEmail(model.Email);
             if (user == null || !_encryptionService.VerifyPasswordHash(model.Password, user.Password, user.PasswordSalt))
                 return BadRequest("invalid Email or password");
